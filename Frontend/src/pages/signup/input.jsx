@@ -5,7 +5,7 @@ export default function InputObraznic(props){
 
     const handleChange = (e)=>{
         props.setThing(e.target.value)
-        console.log(e)
+        /*console.log(e)*/
     }
 
     return(
